@@ -1,0 +1,15 @@
+{
+	"name": "r-utils",
+	"version": "0.0.1",
+	"description": "RadzioGadzio's utils",
+	"bin": "dist/index.js",
+	"scripts": {
+		"start": "tsx --watch src/index.ts",
+		"build": "node esbuild.mjs && tsc"
+	},
+	"author": "Radosław Drab",
+	"devDependencies": {
+		"esbuild": "^0.23.1",
+		"typescript": "^5.5.4"
+	}
+}
